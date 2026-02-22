@@ -1,24 +1,27 @@
-🚗 Vehicle Detection, Tracking & Counting System
-📌 Project Overview
+# 🚗 Vehicle Detection, Tracking & Counting System
 
-This project is a real-time Vehicle Detection, Tracking, and Counting system built using Python and Computer Vision techniques.
+## 📌 Project Overview
+
+This project is a real-time **Vehicle Detection, Tracking, and Counting System** built using Python and Computer Vision techniques.  
 It detects vehicles from video input, tracks their movement across frames, and counts the total number of vehicles passing through a defined area.
 
-This project demonstrates practical implementation of Object Detection and Multi-Object Tracking concepts.
+This project demonstrates practical implementation of **Object Detection** and **Multi-Object Tracking** concepts.
 
-🛠 Technologies Used
+---
 
-Python
+## 🛠 Technologies Used
 
-OpenCV
+- Python  
+- OpenCV  
+- YOLO (You Only Look Once)  
+- NumPy  
+- SORT Tracking Algorithm  
 
-YOLO (You Only Look Once)
+---
 
-NumPy
+## 📂 Project Structure
 
-SORT / Tracking Algorithm
-
-📂 Project Structure
+```
 vehicle-detection-tracking-counting/
 │
 ├── input/              # Input video files
@@ -27,70 +30,91 @@ vehicle-detection-tracking-counting/
 ├── requirements.txt    # Project dependencies
 ├── .gitignore
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/shaikabida617/vehicle-detection-tracking-counting.git
 cd vehicle-detection-tracking-counting
-2️⃣ Create Virtual Environment (Recommended)
+```
+
+### 2️⃣ Create Virtual Environment (Recommended)
+
+```bash
 python -m venv venv
 venv\Scripts\activate
-3️⃣ Install Dependencies
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ How to Run the Project
+```
+
+---
+
+## ▶️ How to Run the Project
+
+```bash
 python src/main.py
+```
 
-Make sure:
+### Make sure:
 
-Input video is placed inside the input folder
+- Input video is placed inside the `input` folder  
+- YOLO model files are placed inside the `models` folder  
 
-YOLO model files are placed inside the models folder
-🎯 Features
+---
 
-✔ Real-time vehicle detection
-✔ Multi-object tracking
-✔ Vehicle counting system
-✔ Clean modular project structure
-✔ Easy to modify and extend
+## 🎯 Features
 
-📊 How It Works
+✔ Real-time vehicle detection  
+✔ Multi-object tracking  
+✔ Vehicle counting system  
+✔ Clean modular project structure  
+✔ Easy to modify and extend  
 
-The system reads video input frame by frame.
+---
 
-YOLO model detects vehicles in each frame.
+## 📊 How It Works
 
-Tracking algorithm assigns unique IDs to vehicles.
+1. The system reads video input frame by frame.  
+2. YOLO model detects vehicles in each frame.  
+3. Tracking algorithm assigns unique IDs to vehicles.  
+4. Vehicles crossing a predefined line are counted.  
+5. Total vehicle count is displayed in real-time.  
 
-Vehicles crossing a predefined line are counted.
+---
 
-Total vehicle count is displayed in real-time.
+## 📌 Applications
 
-📌 Applications
+- Smart traffic management  
+- Traffic flow analysis  
+- Toll booth automation  
+- Smart city surveillance systems  
 
-Smart traffic management
+---
 
-Traffic flow analysis
+## 🚀 Future Improvements
 
-Toll booth automation
+- Add graphical user interface (GUI)  
+- Deploy using Streamlit or Flask  
+- Add vehicle speed estimation  
+- Improve detection accuracy with custom-trained model  
 
-Smart city surveillance systems
+---
 
-🚀 Future Improvements
+## 👩‍💻 Developed By
 
-Add graphical user interface (GUI)
+**Shaik Abida**  
+B.Tech CSE (Data Science) Student  
+Passionate about AI, Computer Vision & Real-world Problem Solving  
 
-Deploy using Streamlit or Flask
+---
 
-Add vehicle speed estimation
-
-Improve detection accuracy with custom-trained model
-
-👩‍💻 Developed By
-
-Shaik Abida
-B.Tech CSE (Data Science) Student
-Passionate about AI, Computer Vision & Real-world Problem Solving
-
-⭐ If you found this project useful
-
-Give it a ⭐ on GitHub!
-
+⭐ If you found this project useful, consider giving it a star on GitHub!
